@@ -1,0 +1,21 @@
+
+
+.pricing-card {
+    transition: transform rgb(46, 115, 174), box-shadow 0.3s ease;
+    background-color: rgb(133, 172, 223);
+  }
+  
+  .pricing-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+  }
+  
+  .pricing-button {
+    transition: background-color rgb(0, 0, 0), transform 0.3s ease;
+  }
+  
+  .pricing-button:hover {
+    background-color: #5a00b3; /* Darker shade of primary color */
+    transform: translateY(-2px);
+  }
+  
